@@ -1,0 +1,44 @@
+*{
+	box-sizing: border-box;
+}
+
+.profile{
+	width: 300px;
+	text-align: right;
+	font-family: "Optima", "Candara", sans-serif;
+	margin-bottom: 25px;
+	border: 1px solid #aaa;
+	padding: 10px;
+	height: 260px;
+}
+
+img{
+	display:block;
+	width: 100%;
+}
+
+
+.user-pic{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	display: inline-block;
+	/*
+		RELEVANT CSS
+		positioning properties here
+	*/
+	position: relative;
+	bottom: 30px;
+}
+
+.author{
+	text-align: left;
+	margin: 0;
+	text-align: right;
+	/*
+   	RELEVANT CSS
+		positioning properties here
+	*/
+	position: relative;
+	bottom: 30px;
+}
